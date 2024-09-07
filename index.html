@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe-page-main</title>
+    <link rel="stylesheet" href="recipe-page-main.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+     <style>
+        :root{
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--Stone-100);
+}
+.Food-image{
+    width: 100%;
+}
+.card{
+    width: 375px;
+    background-color: var(--White);
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 15px;
+}
+.container{
+    padding: 25px;
+}
+.Food-image{
+    border-radius: 15px;
+}
+.title{
+    font-size: 31px;
+    margin-bottom: 25px;
+}
+.description-top{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+.timing{
+    background-color: var(--Rose-50);
+}
+h5{
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: var(--Rose-800);
+    font-size: 20px;
+    font-weight: 900;
+}
+ul,li{
+    padding-left: 15px;
+}
+h2{
+    color: var(--Rose-800);
+    font-size: 30px;
+    padding-top: 10px;
+}
+li{
+    padding: 5px;
+}
+table{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--Rose-800);
+}
+     </style>
+</head>
+<body>
+    
+    <div class="card">
+        <img class="Food-image" src="image-omelette.jpeg" alt="Food-image">
+        <div class="container">
+            <h1 class="title">Simple Omelette Recipe</h1>
+            <p class="description">An easy and quick dish,perfect for any meal.This clasic omelette combines beaten eggs cooked to perfection,optionally filled with your of choice of cheese,vegitables, or meats.</p>
+
+            <div class="timing">
+                <h5>Preparation Time</h5>
+                <ul>
+                    <li><Strong>Total:</Strong>Approximately 10 minutes</li>
+                    <li><strong>Preparation:</strong>5 minutes</li>
+                    <li><strong>Cooking:</strong>5 minutes</li>
+                </ul>
+            </div>
+            <div class="">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>2-3 large eggs</li>
+                    <li>Salt, to taste</li>
+                    <li>Pepper, to taste</li>
+                    <li>1 tablespoon of butter or oil</li>
+                    <li>Optional fillings:cheese,diced vegitables,cokked meats,herbs</li>
+                </ul>
+                <hr>
+            </div>
+
+            <div class="">
+                <h2>Instructions</h2>
+                <ol>
+                <li><strong>1.Beat the eggs:</strong>In a bowl,beat the eggs with a pinch of salt and pepper until they are
+                    well mixed.You can add a tablespoon of water or milk for a fluffier texture.</li>
+                <li><strong>1.Heat the pan:</strong>Place a non-stick frying pan over medium heat and add butter or oil.</li>
+                <li><strong>1.Cook the omelette:</strong>Once the butter is melted and bubbling,pour in the eggs.Tilt the 
+                    pan to ensure the eggs evenly coat the surface.</li>
+                <li><strong>1.Add fillings(optional):</strong>When the eggs begin to set at the edges but are still slightly
+                runny in the middle,sprinle yourchosen filling over one half of the omelete.</li>
+                <li><strong>1.Fold and serve:</strong>As the omelette continue to cook,carefully lift one edge and fold 
+                    it over the fillings.Let it cook for another minutes,then slide it onto a plate.</li>
+                <li><strong>1.Enjoy:</strong>Serve hot, with additional salt and pepper if needed.</li>
+                </ol>
+            </div>
+            <hr>
+            <div class="">
+                <h2>Nutrition</h2>
+                <p>The table below shows nutritinal values per serving without the additional fillings.</p>
+
+                <table table="1px">
+                    <tr> <td>Calories</td>
+                        <td>277kcal</td>
+                    </tr>
+                    <tr>
+                        <td>Carbs</td>
+                        <td>0g</td>
+                    </tr>   
+                    <tr>
+                        <td>Protein</td>
+                        <td>20g</td>
+                    </tr>
+                    <tr>
+                        <td>Fat</td>
+                        <td>22g</td>
+                    </tr>
+                    </tr>
+                </table>            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
